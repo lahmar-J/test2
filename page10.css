@@ -1,0 +1,102 @@
+
+{
+	text-align: center;
+	font-size: 1.3em;
+	color: red;
+	background-color: #ccc;
+	width: 100%;
+	height:100%;
+}
+
+
+{
+	width: 350px;
+	height: 120px;
+	border: 2px solid black ;
+	text-align: justify;
+	margin: auto;
+	margin-bottom: 50px;
+	
+	/*margin: 50px 30%;*/ 
+	/*
+	c'est égale à ça!
+	margin-top: 50px;
+	margin-left: 30%;
+	*/
+
+	overflow: auto;
+
+	padding-left: 115px;
+	padding-right: 115px;
+	padding-bottom: 55px;
+	padding-top: 50px;
+/* word-wrap: breack-word; 
+"permet de couper la ligne en deux pour 
+l'obliger à aller à la ligne, comme <br>
+*/
+}
+p
+{
+	font-size: 25px;
+	border: 6px groove teal;
+	text-align: center;
+	
+	margin-bottom: 13px;
+	
+	padding: 5px;
+
+}
+.test_lien
+{
+	border: 5px groove teal;
+	box-shadow: 5px 5px black;
+	background-color : orange;
+	overflow-wrap: break-word;
+	height: 50px;
+	width: 250px;
+}
+/* Test Mise en page avec Flexbox */ 
+
+
+#conteneur
+{
+	display: flex;  
+	align-items: center;
+	justify-content: space-around;
+
+	flex-wrap: wrap;
+	height: 250px;
+	border: 2px groove #444;
+
+
+}
+.element
+{
+	width: 150px;
+	height: 100px;
+	overflow: auto;
+	
+	margin-bottom: 13px;
+}
+.element:nth-child(1)
+{
+	background-color: orange; 
+	
+
+}
+.element:nth-child(2)
+{
+	background-color: blue;
+	align-self: flex-start;
+	
+}
+.element:nth-child(3)
+{
+	background-color:#ad6; /*color green */
+	
+}
+.element:nth-child(4)
+{
+	background-color: red;
+	align-self: flex-end;
+}

@@ -1,0 +1,46 @@
+h1
+{
+	color: pink;
+	border: 5px red groove ;
+	text-align: center;
+	box-shadow: 5px 5px 5px yellow;
+	text-shadow: 5px 5px 5px teal ;
+}
+figure
+{
+	text-align:  center;
+}
+figcaption
+{
+	color: white;
+}
+body
+{
+	background: url("../image/space.jpg") fixed no-repeat;
+}
+p
+{
+	color: pink;
+	font-size: 1.3em;
+}
+ul
+{
+	color: pink;
+	font-size: 1.3em;
+}
+h2
+{
+	color: pink;
+	font-size: 1.3em;
+
+}
+ol
+{
+	color: pink;
+	font-size: 1.1em;
+}
+em
+{
+	color: pink;
+	font-size: 1.1em;
+}

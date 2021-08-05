@@ -1,0 +1,13 @@
+body
+{
+	background-color: rgb(233, 232, 190);
+}
+h1
+{
+	color: rgb(212, 17, 17);
+	
+}
+:required
+{
+	background-color: rgb(253, 170, 170);
+}

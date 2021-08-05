@@ -1,0 +1,188 @@
+ /* ceci est un test css, j'essaie plusieurs chose merci */
+ p
+ {
+ 	color: purple;
+ 	font-size: 1.3em;
+ 	text-align: justify;
+ 	width: 50%;
+ 	min-width: 400px;
+ 	 /* le " font-size: est fait pour modifier la taille de la police on peut utiliser
+ 	 le "small" "medium" "large" mais aussi on peut utiliser 
+ 	 le "px" par exemple 15px etc... 
+ 	 On peut utiliser l'unité de mesure "em" qui veut dire 
+ 	 1em= 1 taille de la lettre M ça nous permet d'être plus précis lors de notre choix pour la modification de notre police
+ 	 ( ça n'a rien à voir avec le <em> on peut l'ecrir comme ceci : 1.3em )
+ 	 Pour changer d'apparence la police on utilise font-family: ( suivit de notre choix de police )
+
+ 	 impact, "Arial Black", Arial, Comic Sans MS, Courrier New, Georgia, 
+ 	 Times New Roman, Trebuchet MS, Verdana etc ceci est les plus importante */
+/* text-decoration: line-through est fait pour barrer le text */
+/*text-decoration: overline est fait pour mettre une ligne au dessus du text */
+/* text-decoration: underline est fait pour souligner le text */
+/* font-weight bold est pour mettre en gras le text
+/* font-style est faite pour mettre en italic */
+
+font-family:  Arial, Impact, "Arial Black",
+
+ }
+.introduction /* page 5 */
+{
+	color: red;
+}
+h4
+{
+	
+	text-decoration: underline;
+	
+}
+/* Si je met la balise * elle veut dire TOUTES les balise
+ seront en "red" par exemple */ 
+h1 + p
+{
+	color: purple;
+}
+h2
+{
+	color: red;
+	font-size: 1.3em
+
+}
+.ok /* page 5 */
+{
+	color: brown;
+}
+h1	/* text-align: center ou right puis justify 
+qui sert pour le remplissage de la page */
+{
+	color: pink;
+	text-align: center;
+
+}
+li
+{
+	color: purple;
+}
+figure
+{
+	color: orange;
+	float: left;
+}
+.ICC
+{
+	
+	font-family: Impact, Arial, serif
+}
+
+/* voir page 5 pour " h4, em "  mark,strong etc */
+h4 + em
+{
+	color: #A78151;/* brown */
+}
+.CC
+{
+	float: left;
+
+}
+.AP
+{
+	clear: right; /* la balise sert avoir plus de visibiliter 
+	lors d'une insertion d'image dans le texte, c'est pour cela que on utilise
+	 " float: left ou right ( on peut utiliser both aussi,
+	  elle met l'image à droite ou gauche" */
+}
+/*les différents formats de fichiers de polices qui existent et qu'il faut connaître :
+
+    .ttf: TrueType Font. Fonctionne sur IE9 et tous les autres navigateurs.
+
+    .eot: Embedded OpenType. Fonctionne sur Internet Explorer uniquement, toutes versions. Ce format est propriétaire, produit par Microsoft.
+
+    .otf: OpenType Font. Ne fonctionne pas sur Internet Explorer.
+
+    .svg: SVG Font. Le seul format reconnu sur les iPhones et iPads pour le moment.
+
+    .woff: Web Open Font Format. Nouveau format conçu pour le Web, qui fonctionne sur IE9 et tous les autres navigateurs. */
+h3
+{
+	text-decoration: blink; /* ne marche pas sur IE, GC, FF */
+
+}
+
+
+h3
+{
+	color: blue;
+	text-align: center;
+}
+
+.enbas
+{
+	color: pink;
+	font-family: Impact, "Aerial Black", serif;
+	font-size: 1.2em
+}
+
+div
+{
+	text-align: justify;
+	color: blue;
+	font-family: Impact, "Aerial Black", Arial, serif;
+	font-size: 1.3em
+}
+h2
+{
+	text-align: center;
+}
+/*test sur page 7 */ 
+h5
+{
+	font-size: 1.3em;
+	color: #046c6f ; 
+	background-color: pink;
+	text-align: center;
+}
+h4
+{
+	font-size: 1.3em;
+	color: teal;
+	background-color: gray;
+	text-align: center;
+}
+h6
+{
+	color: aqua;
+	font-size: 1.3em;
+	background-color: orange;
+	text-align: center;
+}
+span
+{
+	color: orange;
+	font-size: 0.8em;
+	background-color: black;
+	font-family: Impact, Arial, serif
+}
+bod y /* ceci estpour mettre un fond de page en couleur */
+{
+	background-color: #72D6B6;
+	background-image: url("neige.jpg");
+}
+body
+{
+	background-image: url("image/neige.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	/*Exemple : 
+	background: url("image/neige_mini.jpg") fixed no-repeat top right, url("image/lapinC_mini.jpg") fixed no-repeat ;*/
+	/*avec la balise background-position on peut permettre
+	à l'image de se positionner en fond de page
+	( en haut à droite ) top right
+	( en haut à gauche ) top left etc
+	on peut fusionner toutes les autres proprieter de la balise
+	exemple : 
+	background: url("neige.jpg") fixed no-repeat; (ect)
+	ça peut éviter d'écrire la balise plusieurs fois
+	on peut utiliser la balise rgba( qui à le rvb et aussi l'option opacity, la valeur on la met entre '0' et '1' exemple:
+	0.5, donc rbga(255,0,0,0.5) pour être sur du rouge à moitier transparant)
+	; */
+
+}

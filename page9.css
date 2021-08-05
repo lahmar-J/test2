@@ -1,0 +1,28 @@
+/*page 9 css */ 
+/*#test
+{
+	display: flex;
+}*/
+p{
+	color: blue;
+}
+nav 
+{
+		position: relative;
+		right: 0px;
+		bottom: 0px;
+		
+		display: inline-block;
+		width: 150px;
+		border: 2px groove teal;
+		vertical-align: top;
+}
+section
+{
+	width: 100px;
+	height: 200px;
+	overflow: auto;
+	display: inline-block;
+	border: 2px solid orange;
+	vertical-align: top;
+}

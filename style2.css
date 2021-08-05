@@ -1,0 +1,259 @@
+
+h1
+{
+	text-align: center;
+	color: rgb(206, 209, 35);
+	border: 7px  gray groove;
+	border-radius: 20px / 8px; 
+	/* la deuxieme selection est une autre methode pour faire le radiuse */
+
+}
+h2
+{
+	color: pink;
+	text-decoration: underline;
+	text-align: center;
+
+}
+h3
+{
+	text-align: center;
+	color: pink;
+	border: 5px gray double;
+
+}
+body
+{
+	background: url("image/japonD2.jpg") fixed no-repeat ;
+
+}
+li
+{
+	color: pink;
+	text-align: center;
+	font-size: 1.3em
+}
+ 
+.on
+{
+	text-decoration: underline;
+	text-align: center;
+	color: pink;
+	font-size: 1.3em;
+}
+/* bordure */
+.solid
+{
+	border:7px white solid;
+	color: yellow;
+	border-radius: 20px; 
+	box-shadow: 15px 16px 6px black;
+	text-shadow: 6px 6px 4px white;
+	background: black ;
+}
+
+.dotted
+{
+	border: 7px teal dotted;
+	color: yellow;
+	border-radius: 20px;
+	box-shadow: 15px 16px 6px white;
+	text-shadow: 3px 3px 3px black;
+	background: orange;
+}
+.dashed
+{
+	border: 7px black dashed;
+	color: yellow;
+	border-radius: 20px;
+	box-shadow: 15px 16px 6px orange;
+	text-shadow: 3px 3px 3px black;
+	background: white;
+}
+.double
+{
+	border: 7px white double;
+	color: yellow;
+	border-radius: 20px;
+	box-shadow: 15px 16px 6px red;
+	text-shadow: 6px 6px 4px blue;
+	background: red;
+}
+.groove
+{
+	border: 7px gray groove;
+	color: yellow;
+	border-radius: 20px;
+	box-shadow: 15px 16px 6px blue;
+	text-shadow: 6px 6px 4px red;
+	background: blue;
+}
+.ridge
+{
+	border: 7px white ridge;
+	color: yellow;
+	border-radius: 20px;
+	box-shadow: 15px 16px 6px gray;
+	text-shadow: 6px 6px 4px pink;
+	background: gray;
+
+}
+.inset
+{
+	border: 7px white inset;
+	color: yellow;
+	border-radius: 20px;
+	box-shadow: 15px 16px 6px pink;
+	text-shadow: 6px 6px 4px gray;
+	background: pink ;
+}
+.outset
+{
+	border: 7px pink outset;
+	background: teal;
+	color: yellow;
+	border-radius: 20px;
+	box-shadow: 15px 16px 6px teal;
+	text-shadow: 6px 6px 4px orange;
+	
+}
+.testE
+{
+	color: yellow;
+	border: 8px gray groove ;
+	border-radius: 20px;
+	background-color: teal; 
+}
+ul
+{
+	text-align: center;
+	border: 7px black solid;
+	background: teal;
+}
+
+
+.page1
+{
+	text-align: left;
+	text-decoration: underline;
+}
+.page2
+{
+    text-align: left;
+}
+.page3
+{
+	text-align: left;
+}
+.page4
+{
+	text-align: left;
+}
+.page5
+{
+	text-align: left;
+}
+.page6
+{
+	text-align: left;
+}
+.page7
+{
+	text-align: left;
+}
+.page8
+{
+	text-align: left;
+}
+.findepage
+{
+	color: black;
+	border: 7px double teal;
+	background: orange;
+	text-align: center;
+	box-shadow: 6px 6px 6px teal;
+	text-shadow: 5px 5px 4px black;
+}
+.mcv
+{
+	color: purple ;
+	background-color: orange;
+	border:  5px double black;
+	text-shadow: 5px 5px 4px black;
+	box-shadow: 5px 5px 4px black;
+}
+.hautdepage
+{
+	border: 5px groove pink;
+	color: pink;
+	background: gray;
+	text-align: center; 
+}
+p
+{
+	color: pink;
+	font-size: 1.1em;
+	font-family: " Fluo Gums ",  arial, Impact;
+}
+
+a:hover
+{/* se qui signifie au survole de la souris */
+	color: yellow;
+	text-decoration: underline;
+}
+p:hover
+{ /* j'adore, ceci est pour mettre une bordure dans le paragraphe:
+	right, bottom, left, top etc*/
+	border-left: 3px solid black;
+	text-decoration: underline;
+	font-size: 20px ;
+}
+a:active
+{/* ceci est pour changer la couleur du lien */
+	color: green;
+	background-color: fuchsia;
+}
+/* a:focus */
+/*{/* ceci est utile pour les formulaire, 
+	lorsqu'un élément est séléctionné, il faut appuyer "tab" du clavier*/
+	/*background-color: gray;*/
+
+a:visited
+{ /* ceci est pour mettre en couleur les lien déja visité*/
+	color: orange;
+}
+a
+{ /* lien non visité */
+	text-decoration: none;
+	color: pink;
+	font-style: italic;
+}
+input:focus
+{
+	background-color: #77FF88
+	/* ceci est surtout utililé pour les formulaire */
+}
+/*---------------------------------------------tableau training ---------*/
+td
+{
+	border: 3px solid teal;
+	padding: 5px;
+	box-shadow: 5px 5px 15px  red ;
+	background-color:  #1c1a19;
+
+}
+table
+{
+	/*--- permet de coller les bordure entre elles--- */
+	border-collapse: collapse;
+}
+td ,th ,caption
+{
+	color: orange;
+	background-color:  #1c1a19;
+	border: 3px solid teal;
+	padding: 5px;
+	box-shadow: 5px 5px 15px  black ;
+	margin-bottom: 10px;
+	
+}
